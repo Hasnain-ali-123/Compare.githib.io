@@ -1,0 +1,169 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* ----------------------navbar------------------- */
+
+/* font-awesome */
+
+.fa-bars-staggered{
+    font-size: 30px;
+}
+/* font-awesome */
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-item .nav-link{
+    color: rgb(155, 149, 149);
+    font-family: sans-serif;
+    font-weight: 400;
+
+}
+
+/* ----------------------navbar------------------- */
+
+
+/* ---------------- Look First --------------- */
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    min-width: 70%;
+    overflow: hidden;
+    border: 50px solid #2c2a2a;
+    outline: 3px solid rgb(231, 231, 238);
+    border-radius: 50px;
+}
+
+.compare{
+    background: linear-gradient(
+        to bottom,
+        rgb(79, 202, 202) 0%,
+        #f5f9fa 60%,                                                                 
+        #f5f9fa 60%,
+        rgb(79, 202, 202) 100%
+    );
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width: 750px) {
+    .video-container {
+        border: 25px solid #2c2a2a;
+        border-radius: 25px;
+    }
+}
+
+
+
+/* ---------------- Look First --------------- */
+
+
+/* ---------------- Look Second --------------- */
+
+
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100vh;
+}
+  
+td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.features{
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.checked {
+    color: orange;
+}
+
+
+.product-img1{
+    height: 300px;
+    width: 300px;
+    background-image: url(assets/Images/Brands-pic/Home-Appliances/download.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.product-img2{
+    height: 300px;
+    width: 300px;
+    background-image: url(assets/Images/Brands-pic/Home-Appliances/download\ \(1\).png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+.product-img3{
+    height: 300px;
+    width: 300px;
+    background-image: url(assets/Images/Brands-pic/Home-Appliances/download\ \(2\).png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/* ---------------- Look Second --------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #535c6a;
+}
+
+.footer ,h5 ,p{
+    color: white;
+}
+
+.nav .nav-item .nav-link{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.subbtn{
+    background-color:#298bcc;
+    color: white;
+}
+
+.fa-brands{
+    font-size: 25px;
+}
+
+
+
+

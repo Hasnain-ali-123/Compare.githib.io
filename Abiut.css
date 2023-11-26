@@ -1,0 +1,294 @@
+/* =================================About Us Page===================================================== */
+
+
+
+.fa-bars-staggered{
+    font-size: 30px;
+}
+/* font-awesome */
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav-item .nav-link{
+    color: rgb(155, 149, 149);
+    font-family: sans-serif;
+    font-weight: 400;
+
+}
+
+
+
+/* ---------------- Look First --------------- */
+
+
+.mobile{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.mobile-banner{
+    height: 600px;
+}
+
+.Heading-2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.Heading-1 h1{
+    color: rgb(77, 73, 73);
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 600;
+    /* text-align: center; */
+}
+
+
+
+.comp-para{
+    font-size: 23px;
+    color: rgb(77, 73, 73);
+    font-family: sans-serif;
+}
+
+
+
+
+/* ---------------- Look First --------------- */
+
+
+
+/* ---------------- Look Second --------------- */
+
+
+
+.faimly-image{
+    height: 390px;
+    background-image: url(https://www.compare.com/wp-content/uploads/2022/03/happy-family-700x486.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.saving-para{
+    color: #535c6a;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+
+.our-mission{
+    color: #535c6a;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+.office-women{
+    background-image: url(https://www.compare.com/wp-content/uploads/2022/03/woman-saving-money-1-700x486.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 390px;
+
+}
+
+
+@media screen and (max-width: 380px) {
+    .comp-head{
+        font-size: medium !important;
+    }
+}
+
+/* ---------------- Look Second --------------- */
+
+
+
+
+/* ---------------- Look third --------------- */
+
+.three-size{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+
+
+.icon-about1{
+    width: 250px;
+    height: 250px;
+    background-image: url(https://www.compare.com/wp-content/uploads/2022/03/screens@2x.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.icon-about2{
+    width: 250px;
+    height: 250px;
+    background-image: url(https://www.compare.com/wp-content/uploads/2022/03/license@2x.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.icon-about3{
+    width: 250px;
+    height: 250px;
+    background-image: url(https://www.compare.com/wp-content/uploads/2022/03/piggy_bank@2x.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.count{
+    color: #535c6a;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.quote{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #535c6a;
+    font-weight: 500;
+}
+
+
+
+.Money-image{
+    width: 250px;
+    height: 250px;
+    background-image: url(https://www.compare.com/wp-content/uploads/2022/03/price_tag@2x.png);
+    background-position: center;
+    background-size:  cover;
+    background-repeat: no-repeat;
+}
+
+
+/* ---------------- Look third --------------- */
+
+
+
+
+
+
+/* -------------------------- Look Third ------------------------ */
+
+.learn-more{
+    color: #535c6a;
+    font-size: 38px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+
+.icon-about4{
+    width: 250px;
+    height: 250px;
+    background-image: url(https://www.compare.com/wp-content/uploads/2022/04/book.png);
+    background-position: center;
+    background-size:  cover;
+    background-repeat: no-repeat;
+}
+
+
+.icon-about6{
+    width: 250px;
+    height: 250px;
+    background-image: url(https://www.compare.com/wp-content/uploads/2022/04/ribbon.png);
+    background-position: center;
+    background-size:  cover;
+    background-repeat: no-repeat;
+}
+
+
+.Learn-btn{
+    background-color: #298bcc;
+    color: white;
+    height: 60px;
+    width: 180px;
+    border-radius: 50px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+
+.three-size2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------- Look Third ------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #535c6a;
+}
+
+.footer ,h5 ,p{
+    color: white;
+}
+
+.nav .nav-item .nav-link{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.subbtn{
+    background-color:#298bcc;
+    color: white;
+}
+
+.fa-brands{
+    font-size: 25px;
+}
